@@ -1,5 +1,9 @@
 FYI: This guide was made by someone with incomplete knowledge of how this works. It is for pipeburns rather than tileburns (which require agent b to uncap it).
 
+burnmix = plasma and methane (farts)
+oxygen = pure oxygen heated
+keep separate, use pumps to combine both in the pipes, use a volume pump to prevent backflow
+
 initial pressure pump input (burnmix/O2 in kPa) adjust depending on map; generally the ratio will be 5/8
 kondaru, clarion, destiny: (20/32)
 cog1: (35/56)
@@ -11,8 +15,6 @@ during the burn:
 after successful ignition, engine setups on maps with purge valves on the outtake may benefit from having this valve opened. a similar phenomenon happens with the pressure tank on kondaru. i have yet to understand what causes this.
 
 once exponential growth is achieved, oxygen saturation should be managed to stay between 72-80%; this is done by increasing/decreasing either the oxygen or burn mix input pressure in relatively small increments as necessary. the atmospheric measurement used to determine the aforementioned saturation% must come from a segment of pipe between the inlet and intake passive gate. as power output, pressure, and temperature increase, so too will the rate of combustion within the pipes. in conjunction with managing oxygen saturation, the input pressure must slowly increase over time, up to 40-50% increase over its initial amount. the input pressure for oxygen may be slightly higher than this as a faster reaction would need to be catalysed. the end goal is to gradually make the power reading curve as steep as possible.
-
-should there reach a moment where the power reading fluctuates creating a series of spikes, close purge and pressure tank valves and increase both O2 and burn mix input to increase the pressure. re-open once sufficient pressure in the pipes is reached (i have no idea how much this is, it seems to be inconsistent as of current. needs further testing).
 
 todo:
 mess with simple pipes (cannot rupture? does exchange heat with tiles, so, not as efficient)
